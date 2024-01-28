@@ -28,5 +28,15 @@ void main(){
 
     },
   };
-   print(world, );
-}
+ if (world.containsKey(world)) {
+    // Access the country map using the country key
+    var country = world[world];
+
+    // Print the values of capital and currency
+    print('Country: $world');
+    print('Capital City: ${country ,'capitalCity'}');
+    print('Currency: ${country['currency']}');
+  } else {
+    print('Country not found in the world map.');
+  }
+}                         
