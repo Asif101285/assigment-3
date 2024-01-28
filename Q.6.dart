@@ -5,12 +5,8 @@ void main(){
 // value of Capital & Currency.
 
 
- Map<String, Map<String, dynamic>> world = {
-    "usa": {
-      "capitalCity": "Washington",
-      "currency": "US Dollar",
-      "language": "English",
-    },
+ Map<String, Map<String, dynamic>> World = {
+    
     "pakistan": {
       "capitalCity": "islamabad",
       "currency": "pakistani Rupee",
@@ -28,15 +24,6 @@ void main(){
 
     },
   };
- if (world.containsKey(world)) {
-    // Access the country map using the country key
-    var country = world[world];
+ World.forEach((key, value) => print("${key}:${value}"));
 
-    // Print the values of capital and currency
-    print('Country: $world');
-    print('Capital City: ${country ,'capitalCity'}');
-    print('Currency: ${country['currency']}');
-  } else {
-    print('Country not found in the world map.');
-  }
 }                         
